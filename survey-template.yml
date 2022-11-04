@@ -1,6 +1,6 @@
----
+ ---
 - name: demonstrate using surveys with templates
-  hosts: localhost
+  hosts: node1
   gather_facts: false
   become: true
   vars:
